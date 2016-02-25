@@ -1,0 +1,5 @@
+create libFPX11.a
+addlib libfltk.a
+addlib libPX11.a
+save
+end
