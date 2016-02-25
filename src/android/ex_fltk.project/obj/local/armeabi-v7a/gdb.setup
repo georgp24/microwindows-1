@@ -1,0 +1,5 @@
+set solib-search-path ./obj/local/armeabi-v7a
+source /home/georg/android-ndk-r10e/prebuilt/common/gdb/common.setup
+directory /home/georg/android-ndk-r10e/platforms/android-12/arch-arm/usr/include jni /home/georg/allegro5111/include /home/georg/allegro5111/ba/include /home/georg/allegro5111/addons/image /home/georg/allegro5111/addons/primitives /home/georg/allegro5111/addons/font /home/georg/allegro5111/addons/ttf /home/georg/android-ndk-r10e/sources/cxx-stl/system
+file ./obj/local/armeabi-v7a/app_process
+target remote :5039
