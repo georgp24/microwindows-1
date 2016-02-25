@@ -1,0 +1,3 @@
+set solib-search-path ./obj/local/armeabi-v7a
+source /home/georg/android-ndk-r10e/prebuilt/common/gdb/common.setup
+directory /home/georg/android-ndk-r10e/platforms/android-12/arch-arm/usr/include jni /home/georg/microwindows-android/src/android//include /home/georg/microwindows-android/src/android/buildandroid/include /home/georg/android-ndk-r10e/sources/cxx-stl/system/include /home/georg/microwindows-android/src/android//addons/image /home/georg/microwindows-android/src/android//addons/primitives /home/georg/microwindows-android/src/android//addons/font /home/georg/microwindows-android/src/android//addons/ttf
